@@ -1,0 +1,20 @@
+﻿@model GetUniversityByIdQueryResult
+
+<h1>Üniversite Güncelle</h1>
+
+<br />
+<div class="container">
+    <form method="post">
+        <input type="hidden" asp-for="UniversityID"/>
+        <label>Üni Adı</label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <br />
+        <label>Üni Şehir</label>
+        <input type="text" asp-for="City" class="form-control" />
+        <br />
+        <label>Üni Nüfus </label>
+        <input type="text" asp-for="Population" class="form-control" />
+        <br />
+        <button class="btn btn-danger">Güncelle</button>
+    </form>
+</div>

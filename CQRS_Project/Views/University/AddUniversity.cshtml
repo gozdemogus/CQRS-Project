@@ -1,0 +1,22 @@
+﻿@model CreateUniversityCommand
+@{
+    ViewData["Title"] = "AddUniversity";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>AddUniversity</h1>
+
+<div class="container">
+    <form method="post">
+        <label>Üni Adı</label>
+        <input type="text" asp-for="Name" class="form-control" />
+        <br />
+        <label>Üni Şehir</label>
+        <input type="text" asp-for="City" class="form-control" />
+        <br />
+        <label>Üni Nüfus </label>
+        <input type="text" asp-for="Population" class="form-control" />
+        <br />
+        <button class="btn btn-danger">Güncelle</button>
+    </form>
+</div>

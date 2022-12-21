@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{6C015F86-8E18-4BC9-8DD3-D321A4F4915C}|WebApplication1">
+  <MonoDevelop.Ide.ItemProperties.CQRS__Project PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CQRS_Project/DAL/Entities/University.cs">
+    <Files>
+      <File FileName="CQRS_Project/DAL/Context/ProductContext.cs" Line="1" Column="1" />
+      <File FileName="CQRS_Project/DAL/Entities/Product.cs" Line="1" Column="1" />
+      <File FileName="CQRS_Project/DAL/Entities/Student.cs" Line="1" Column="1" />
+      <File FileName="CQRS_Project/DAL/Entities/University.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CQRS_Project" expanded="True">
+            <Node name="CQRS_Project" expanded="True">
+              <Node name="CQRS" expanded="True">
+                <Node name="Handlers" expanded="True">
+                  <Node name="StudentHandlers" expanded="True" />
+                  <Node name="UniversityHandlers" expanded="True" />
+                </Node>
+                <Node name="Queries" expanded="True">
+                  <Node name="StudentQueries" expanded="True" />
+                </Node>
+                <Node name="Results" expanded="True" />
+              </Node>
+              <Node name="DAL" expanded="True">
+                <Node name="Context" expanded="True" />
+                <Node name="Entities" expanded="True">
+                  <Node name="University.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
